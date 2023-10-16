@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--swiperjs css cdn link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<!-- all icons cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<body>
+  <!--   Header section starts -->
+  <header class="header">
+    <a href="#logo" class="Logo"><i class="fas fa-shopping-basket"></i>Growoco</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#products">Products</a>
+      <a href="#categories">Categories</a>
+      <a href="#review">Reviews</a>
+      <a href="#blogs">Blogs</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" id="search2" class="search-form">
+      <input type="search" id="search-box" placeholder="Search here...">
+      <label for="search-box" class='fas fa-search'></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class='box'>
+        <i class="fas fa-trash"></i>
+        <img src="gimages/cart-img-1.png" alt="watermelon">
+        <div class="content">
+          <h3>Watermelon</h3>
+          <span class="Price">$4.99/-</span>
+          <span class="quantity">Qty: 10</span>
+        </div>
+      </div>
+      <div class='box'>
+        <i class="fas fa-trash"></i>
+        <img src="gimages/cart-img-2.png" alt="watermelon">
+        <div class="content">
+          <h3>Onion</h3>
+          <span class="Price">$4.99/-</span>
+          <span class="quantity">Qty: 10</span>
+        </div>
+      </div>
+      <div class='box'>
+        <i class="fas fa-trash"></i>
+        <img src="gimages/cart-img-3.png" alt="watermelon">
+        <div class="content">
+          <h3>Chicken</h3>
+          <span class="Price">$4.99/-</span>
+          <span class="quantity">Qty: 11</span>
+        </div>
+      </div>
+      <div class="total">Total: $20.12/-</div>
+      <a href="#" class="checkbtn">Checkout</a>
+    </div>
+    <form action="" class="login-form">
+      <h3>login now</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your passowrd" class="box">
+      <p>Forget your Password? <a href="#">Click Here</a></p>
+      <p>Don't have an Account? <a href="#">Create Now</a></p>
+      <input type="submit" value="login now" class="btn">
+    </form>
+  </header>
+  <!-- Header section ends   -->
+
+  <!-- Home section starts-->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>fresh and <span> organic </span>products for your</h3>
+      <p>Produce can be called organic if it's certified to have grown on soil that had no prohibited substances applied
+        for three years prior to harvest. Prohibited substances include most synthetic fertilizers and pesticides.</p>
+      <a href="#" class="btn">shop Now</a>
+    </div>
+  </section>
+  <!-- Home section ends-->
+
+  <!--Features section starts-->
+  <section class="features" id="features">
+    <h1 class="heading">Our<span> Features </span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="gimages/feature-img-1.png">
+        <h3>Fresh and Organic</h3>
+        <p>Produce can be called organic if it's certified to have grown on soil that had no prohibited substances
+          applied
+          for three years prior to harvest. Prohibited substances include most synthetic fertilizers and pesticides.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+      <div class="box">
+        <img src="gimages/feature-img-2.png">
+        <h3>Free Services</h3>
+        <p>Produce can be called organic if it's certified to have grown on soil that had no prohibited substances
+          applied
+          for three years prior to harvest. Prohibited substances include most synthetic fertilizers and pesticides.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+      <div class="box">
+        <img src="gimages/feature-img-3.png">
+        <h3>Easy payments</h3>
+        <p>Produce can be called organic if it's certified to have grown on soil that had no prohibited substances
+          applied
+          for three years prior to harvest. Prohibited substances include most synthetic fertilizers and pesticides.
+        </p>
+        <a href="#" class="btn"> Read more</a>
+      </div>
+    </div>
+
+  </section>
+  <!--   Features section ends -->
+
+  <!--   Products secion starts -->
+  <section class="products" id="products">
+    <h1 class="heading">Our <span>products</span></h1>
+    <div class="swiper products-slider">
+      <!-- swiper is swiperjs class-->
+      <div class="swiper-wrapper">
+        <!-- swiper-wrapper is swiperjs class-->
+        <div class="swiper-slide box">
+          <img src="gimages/product-1.png">
+          <h3>Fresh Orange</h3>
+          <div class="price"> $4.99/- - 10.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="swiper-slide box">
+          <img src="gimages/product-2.png">
+          <h3>Fresh Onion</h3>
+          <div class="price"> $4.99/- - 8.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="swiper-slide box">
+          <img src="gimages/product-3.png">
+          <h3>Fresh Meat</h3>
+          <div class="price"> $4.99/- - 20.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="swiper-slide box">
+          <img src="gimages/product-4.png">
+          <h3>Fresh Cabbage</h3>
+          <div class="price"> $4.99/- - 7.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper products-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="gimages/product-5.png">
+          <h3>Fresh Potato</h3>
+          <div class="price"> $4.99/- - 9.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="swiper-slide box">
+          <img src="gimages/product-6.png">
+          <h3>Fresh Avocado</h3>
+          <div class="price"> $4.99/- - 8.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="swiper-slide box">
+          <img src="gimages/product-7.png">
+          <h3>Fresh Carrot</h3>
+          <div class="price"> $4.99/- - 20.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="swiper-slide box">
+          <img src="gimages/product-8.png">
+          <h3>Fresh Green Lemon</h3>
+          <div class="price"> $4.99/- - 7.99/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--   Products secion ends -->
+  <!--   Category Section starts -->
+  <section class="categories" id="categories">
+    <h1 class="heading">Product <span>Categories</span>
+      <div class="box-container">
+        <div class="box">
+          <img src="gimages/cat-1.png">
+          <h3>Vegetables</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">Shop now</a>
+        </div>
+        <div class="box">
+          <img src="gimages/cat-2.png">
+          <h3>Fresh Fruits</h3>
+          <p>upto 35% off</p>
+          <a href="#" class="btn">Shop now</a>
+        </div>
+        <div class="box">
+          <img src="gimages/cat-3.png">
+          <h3>Dairy Products</h3>
+          <p>upto 20% off</p>
+          <a href="#" class="btn">Shop now</a>
+        </div>
+        <div class="box">
+          <img src="gimages/cat-4.png">
+          <h3>Fresh Meats</h3>
+          <p>upto 29% off</p>
+          <a href="#" class="btn">Shop now</a>
+        </div>
+      </div>
+  </section>
+  <!--   Category section ends -->
+  <!-- review section starts -->
+  <section class="review" id="review">
+    <h1 class="heading">Customer's <span> Reviews </span></h1>
+    <div class="swiper review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="gimages/pic-1.png">
+          <p> This is very good grocery website i ever come across. They have plenty of variety of foods and
+            freshness of fruits. and they also have very fair price for everything as you can see compare with market.
+          </p>
+          <h3>Robert dawns</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="gimages/pic-2.png">
+          <p> This is very good grocery website i ever come across. They have plenty of variety of foods and
+            freshness of fruits. and they also have very fair price for everything as you can see compare with market.
+          </p>
+          <h3>Kelly Heggins</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="gimages/pic-3.png">
+          <p> This is very good grocery website i ever come across. They have plenty of variety of foods and
+            freshness of fruits. and they also have very fair price for everything as you can see compare with market.
+          </p>
+          <h3>Carl Kent</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="gimages/pic-4.png">
+          <p> This is very good grocery website i ever come across. They have plenty of variety of foods and
+            freshness of fruits. and they also have very fair price for everything as you can see compare with market.
+          </p>
+          <h3>Kenny shawns</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- review section ends -->
+
+  <!--   Blog secion starts -->
+  <section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>Blogs</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="gimages/blog-1.jpg">
+        <div class="content">
+          <div class="icons">
+            <a hre="#"><i class="fas fa-user"></i> by user</a>
+            <a hre="#"><i class="fas fa-calendar"></i>20 jan,2023</a>
+          </div>
+          <h3>Fresh and organic fruits and vegies</h3>
+          <p>We have variety of fresh vegies and fruits. So, just enjoy our services</p>
+          <a href="#" class="btn">Read more></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="gimages/blog-2.jpg">
+        <div class="content">
+          <div class="icons">
+            <a hre="#"><i class="fas fa-user"></i> by user</a>
+            <a hre="#"><i class="fas fa-calendar"></i>22 Mar,2023</a>
+          </div>
+          <h3>Fresh and organic fruits and vegies</h3>
+          <p>We have variety of fresh vegies and fruits. So, just enjoy our services</p>
+          <a href="#" class="btn">Read more></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="gimages/blog-3.jpg">
+        <div class="content">
+          <div class="icons">
+            <a hre="#"><i class="fas fa-user"></i> by user</a>
+            <a hre="#"><i class="fas fa-calendar"></i> 21 April,2023</a>
+          </div>
+          <h3>Fresh and organic fruits and vegies</h3>
+          <p>We have variety of fresh vegies and fruits. So, just enjoy our services</p>
+          <a href="#" class="btn">Read more></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--   Blog section Ends -->
+  <!--   footer starts -->
+  <section class="footer">
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Growoco <i class="fas fa-shopping-basket"></i></h3>
+        <p> Thank you for choosing Us</p>
+        <div class="share">
+          <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+          <a href="https://www.twitter.com" class="fab fa-twitter"></a>
+          <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+          <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+          <a href="https://www.whatsapp.com" class="fab fa-whatsapp"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="#" class="links"> <i class="fas fa-phone"></i>+91 123-456-7890</a>
+        <a href="#" class="links"> <i class="fas fa-phone"></i>+91 703-757-0375</a>
+        <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Chandigarh, India-160019</a>
+      </div>
+
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i>features</a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i>products</a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i>category</a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i>reviews</a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i>blogs</a>
+      </div>
+
+      <div class="box">
+        <h3>News letter</h3>
+        <p>Subscribe for latest update</p>
+        <input type="email" placeholder="your email" class="email">
+        <input type="submit" value="subscribe" class="btn">
+        <img src="gimages/payment.png" class="payment">
+      </div>
+    </div>
+    <div class="credits"> Created by <span> Harsh_k </span> | all rights reserved</div>
+  </section>
+  <!--   footer ends -->
+
+  <!-- Swiperjs js cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- script link -->
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
