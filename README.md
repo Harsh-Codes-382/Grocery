@@ -1,1 +1,3 @@
-# This is my First FrontEnd Project.<br> It is a Grocery Website template using <strong>HTML, CSS, JS<strong>. <br> This is  also my first push on GitHub . This is Main
+## This is my First FrontEnd Project.<br> It is a Grocery Website template using <strong>HTML, CSS, JS<strong>. <br> This is  also my first push on GitHub.
+
+**To view this website go to URL:** https://harsh-codes-382.github.io/Grocery/
